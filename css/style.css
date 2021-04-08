@@ -2,8 +2,10 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 .header{
   display: flex;
@@ -12,6 +14,7 @@ body{
   padding-bottom: 20px;
   padding-left: 32px;
   padding-right: 70px;
+  margin-bottom: 30px;
   
 }
 .menu-button {
@@ -52,17 +55,14 @@ body{
 }
 
 .input-search{
+  padding: 0;
   background-color:transparent;
   border: none;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 23px;
-  padding-right: 23px;
-  
+  padding: 12px 23px 12px 23px;
+  width: 100%;
 }
 
 .button-search{
-  padding: 0;
   width: 19px;
   height: 19px;
   border:none;
@@ -73,15 +73,17 @@ body{
 
 }
 
-.icon-search{
-  fill:  #000;
-}
 
 .icons{
   display: flex;
   align-items:center;
   margin-left: auto;
 }
+
+.icon-search{
+  fill:  #000;
+}
+
 .icons-link{
   text-decoration: none;
   opacity: 0.24;
@@ -103,3 +105,53 @@ body{
   height: 40px;
   border-radius: 50%;
 }
+.side-bar{
+  padding-left: 32px;
+}
+.nav-menu{
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+  list-style-type: none;
+
+}
+
+.nav-item{
+  margin-bottom: 28px;
+  align-items: center;
+  color: #898989;
+}
+.nav-link{
+  color:#898989;
+  display: flex;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  color: #FF0000;
+}
+.nav-link:hover.icon{
+  color: #FF0000;
+}
+.nav-item .icon{
+  fill: #898989;
+}
+.nav-text{
+  margin-left: 13px;
+}
+
+.nav-image{
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-left: 32px;
+}
+
+.nav-title{
+margin-left: 32px;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+margin-bottom: 30px;
+}
+
