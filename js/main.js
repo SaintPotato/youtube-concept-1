@@ -84,6 +84,24 @@ seartchBtn.addEventListener('click', () => {
   mobileSearch.classList.toggle('is-open');
 });
 
+// Dark mode switch
+const darkThemeIcon = document.querySelector('.dark-theme-icon');
+darkThemeIcon.addEventListener('click', () => {
+  
+  document.querySelector('.header').classList.toggle("dark-header"); 
+  
+  document.querySelector('.video-title').classList.toggle("dark-text"); 
+  
+  document.querySelector('.sidebar').classList.toggle("dark-header"); 
+
+  var body = document.body;
+  document.body .classList.toggle("dark-mode");
+  
+  var logo = document.querySelector('.logo');
+  logo.setAttribute("src", "img/youtube-light.webp");
+  logo.style.height = "65px";
+});
+
 if (document.documentElement.scrollWidth <= 640) {
   channelSlider.destroy();
   recommendationsSlider.destroy();

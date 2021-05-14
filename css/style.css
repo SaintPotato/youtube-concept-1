@@ -448,3 +448,26 @@ body {
     top: 60px;
     margin: auto;
   }
+}
+
+/* ! classes for dark mode */
+.dark-mode {
+  background-color: rgb(48, 47, 47);
+  color: rgb(228, 228, 228);
+}
+
+.dark-header {
+  background-color: rgb(43, 43, 43);
+}
+
+.dark-theme-icon {
+  cursor: pointer;
+}
+
+.icons-link {
+  fill: rgb(228, 228, 228);
+}
+
+.channel-text, .video-title, .recommended-title {
+  color: rgb(228, 228, 228);
+}
